@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded(
     }
 ))
 
+app.use(bodyParser.json())
 //Template Engine
 app.set('view engine', 'ejs')
 
